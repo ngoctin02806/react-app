@@ -1,0 +1,7 @@
+.header-link {
+    display: flex;
+}
+
+.header-link a {
+    margin: 0px 20px;
+}

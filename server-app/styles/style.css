@@ -1,0 +1,30 @@
+.hover-item:hover {
+    background-color: #ddd;
+}
+
+.add-image {
+    width: 70px;
+    height: 70px;
+    border: 1px dashed #bbbbbb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.delete-image {
+    width: 15px;
+    height: 15px;
+    background-color: #dddddd;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 100;
+}
+
+.loading-background {
+    background-color: rgba(221, 221, 221, 0.4);
+    width: 100%;
+    height: 100%;
+}
