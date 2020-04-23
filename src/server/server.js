@@ -35,6 +35,6 @@ server.get('/*', (req, res) => {
                           </html>`);
 });
 
-server.listen(3000, () => {
-  console.info(`[SERVER] Server is listening on port ${3000}`);
+server.listen(80, () => {
+  console.info(`[SERVER] Server is listening on port ${80}`);
 });

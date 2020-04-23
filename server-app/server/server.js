@@ -30,6 +30,6 @@ server.get('/*', function (req, res) {
 
   return res.send("<!DOCTYPE html>\n                          <html lang=\"en\">\n                            <head>\n                                <meta charset=\"UTF-8\">\n                                <title>React App</title>\n                                <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n                                <link rel=\"icon\" href=\"/img/icons/react-logo.ico\" type=\"image/x-icon\" />\n                            <link href=\"/main.css\" rel=\"stylesheet\"></head>\n                            <body>\n                                <div id=\"root\">".concat(initialMarkupHtml, "</div>\n                            <script src=\"/main.js\"></script></body>\n                          </html>"));
 });
-server.listen(3000, function () {
-  console.info("[SERVER] Server is listening on port ".concat(3000));
+server.listen(80, function () {
+  console.info("[SERVER] Server is listening on port ".concat(80));
 });
